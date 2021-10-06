@@ -441,26 +441,65 @@ img{
 
 /*recipe section ends*/
 
-/* about 
-.about{
-    padding: 4.5rem 0;
-    background-color: #B9FAF8;
-}
-.about-content{
-    display: flex;
+/*about me section begins*/
+.about-section{
+    background: url(../Images/about-bg.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 0 0;
 }
 
-.about-content img{
-    width: 500px;
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #F5F5F5;
+    padding: 150px;
 }
-.about-text{
-    margin: 2rem 0;
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
 }
-.about-text > p{
-    font-size: 1.1rem;
-    padding: 0.6rem 1.5rem;
+
+.inner-container p{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
     text-align: justify;
-}*/
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    } 
+    .inner-container{
+        padding: 60px;
+        background-color: #778899;
+    }
+    .inner-container p{
+        color: white;
+    }
+}
+/*about me section ends*/
 
 /*footer section begins*/
 footer{
