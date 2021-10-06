@@ -119,7 +119,7 @@ header .navigation a:hover{
 
 /*responsive- header section begins*/
   
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px){
     .header-section{
         height: 700px;
     }
@@ -194,7 +194,7 @@ header .navigation a:hover{
     }
 }
   
-  @media (max-width: 900px){
+  @media screen and (max-width: 900px){
     .header-section{
         height: 500px;
     }
