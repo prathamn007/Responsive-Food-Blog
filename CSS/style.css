@@ -66,6 +66,7 @@ header .navigation a:hover{
   
 .content{
     margin-top: 100px;
+    width: 100%;
     background: url(../Images/header-food.jpg);
     background-repeat: no-repeat;
     align-items: center;
@@ -119,7 +120,7 @@ header .navigation a:hover{
 
 /*responsive- header section begins*/
   
-@media screen and (max-width: 1200px){
+@media (max-width: 1200px){
     .header-section{
         height: 700px;
     }
@@ -194,7 +195,7 @@ header .navigation a:hover{
     }
 }
   
-  @media screen and (max-width: 900px){
+  @media (max-width: 900px){
     .header-section{
         height: 500px;
     }
@@ -234,6 +235,10 @@ header .navigation a:hover{
 }
   
 @media screen and (max-width: 768px){
+    header{
+        max-width: 100%;
+    }
+
     .header-section{
         height: 400px;
     }
@@ -278,7 +283,11 @@ header .navigation a:hover{
     }   
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 680px){
+    header{
+        max-width: 100vw;
+    }
+
     .header-section{
         height: 300px;
     }
@@ -432,7 +441,7 @@ img{
 
 /*recipe section ends*/
 
-/* about */
+/* about 
 .about{
     padding: 4.5rem 0;
     background-color: #B9FAF8;
@@ -451,7 +460,7 @@ img{
     font-size: 1.1rem;
     padding: 0.6rem 1.5rem;
     text-align: justify;
-}
+}*/
 
 /*footer section begins*/
 footer{
